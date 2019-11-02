@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: greenyellow;
+  text-align:bottom;
+}
+
+.right {
+  right: 0;
+  background-color: aquamarine;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  bottom:-200px;
+}
+.x{
+  background-color: aqua;
+  color: black;
+}
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+</div>
+<div class="split left">
+  <div>
+    <a href="https://www.facebook.com"><img src="images/fb.jpg" height=75px width=75px></a>
+    <a href="https://www.instagram.com"><img src="images/insta.jpg" height=75px width=75px></a>
+    <a href="https://www.twitter.com"><img src="images/twitter.jpg" height=75px width=75px></a>
+    <a href="https://www.github.com"><img src="images/git.jpg" height=75px width=75px></a>
+  </div>
+  <div class="centered">
+    <h2>Varun Bansal</h2>
+    <p>Bathinda,Punjab</p>
+    <p>9478043740</p>
+    <p>varunbansal644@gmail.com</p>
+  </div>
+</div>
+<div class="split right">
+  <div>
+    <img src="images/img.jpg">
+  </div>
+  <div class="centered">
+        <div class="container"> 
+                <a href="education.html"><button class="education">Education</button></a>
+                <a href="skills.html"><button class="skills">Skills</button></a>
+                <a href="project.html"><button class="project">Projects And Qualities</button></a>
+              </div>
+  </div>
+</div>     
+</body>
+</html> 
